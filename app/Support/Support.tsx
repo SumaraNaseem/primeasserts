@@ -1,7 +1,7 @@
 import React from "react";
-import Time from "../../public/images.jpeg"
-import Agent from "../../public/images (1).jpeg"
-import Center from "../../public/images (2).jpeg"
+import Time from "/images.jpeg"
+import Agent from "/images (1).jpeg"
+import Center from "/images (2).jpeg"
 
 const Support = () => {
   const supportData = [

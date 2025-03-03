@@ -1,6 +1,6 @@
-import StockLoanImageone from "../../public/Picture3.png"
-import StockLoanImageTwo from "../../public/Picture4.png"
-import StockLoanImageThree from "../../public/Picture1.png"
+import StockLoanImageone from "/Picture3.png"
+import StockLoanImageTwo from "/Picture4.png"
+import StockLoanImageThree from "/Picture1.png"
 const StockLoansSection = () => {
     return (
       <div className="p-6 px-52 py-10 bg-white">

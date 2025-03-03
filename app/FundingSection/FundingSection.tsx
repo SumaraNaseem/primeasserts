@@ -1,6 +1,6 @@
 import React from "react";
-import P2P from "../../public/p2p.jpeg"
-import P2Pexchange from "../../public/p2pexchanges.jpeg"
+import P2P from "/p2p.jpeg"
+import P2Pexchange from "/p2pexchanges.jpeg"
 
 const FundingSection = () => {
   return (

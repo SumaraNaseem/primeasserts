@@ -1,8 +1,8 @@
 import React from "react";
-import StoctMarket from "../../public/stock market.jpg"
-import Account from "../../public/download (1).jpeg"
-import Focused from "../../public/download (2).jpeg"
-import Security from "../../public/download.jpeg"
+import StoctMarket from "/stock market.jpg"
+import Account from "/download (1).jpeg"
+import Focused from "/download (2).jpeg"
+import Security from "/download.jpeg"
 
 const StockLoanIntro = () => {
   return (

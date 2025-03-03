@@ -1,4 +1,4 @@
-import Hero from "../../public/slider1.jpg"
+import Hero from "/slider1.jpg"
 import StockChart from "../RealStockData/RealStockData"
 const HeroSection = () => {
     return (

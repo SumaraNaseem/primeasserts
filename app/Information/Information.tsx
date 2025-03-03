@@ -216,7 +216,7 @@ const CTA = () => {
               fontWeight: "bold",
               fontFamily: "Play, sans-serif"
             }}>
-              Send
+             보내기
             </button>
           </div>
         </form>
