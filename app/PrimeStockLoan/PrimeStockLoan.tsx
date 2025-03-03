@@ -1,9 +1,9 @@
 const PrimeStockLoan = () => {
     return (
-      <div className="px-52 py-10 p-6 rounded-lg">
+      <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
         <h2 className="text-lg font-bold  mb-4">오직 고객만을 위한 프라임스탁론이 되겠습니다.</h2>
-        <div className="grid grid-cols-2 gap-4 mb-4">
-            <div className="grid grid-cols-2 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div className="grid grid-cols-2  md:grid-cols-2  gap-4 ">
             <div className="bg-orange-300 flex justify-center items-center p-4 text-center font-bold rounded-lg">정직과 신뢰를 바탕</div>
           <div className="bg-orange-300 flex justify-center items-center p-4 text-center font-bold rounded-lg">고객 중심</div>
           <div className="bg-orange-300 flex justify-center items-center p-4 text-center font-bold rounded-lg">투명성과 공정성</div>

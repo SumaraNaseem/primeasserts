@@ -61,7 +61,7 @@ const CTA = () => {
   return (
     <div
     id="contact" 
-      className="rounded-[20px] px-52 box-shadow flex-col sm:flex-row"
+      className="rounded-[20px]  px-4 md:px-10  lg:px-14 xl:px-10 2xl:px-22 "
      
     >
       {/* Left Section: Heading */}
@@ -93,7 +93,7 @@ const CTA = () => {
                     marginTop:"8px",
                     fontFamily: "Play, sans-serif",
                     // backgroundColor: "#23236a",
-                    border:"1px solid black",
+                    border:"1px solid white",
                     width: "100%",
                     boxSizing: "border-box",
                 }}
@@ -114,7 +114,7 @@ const CTA = () => {
                     padding: "10px",
                     marginTop:"8px",
                     fontFamily: "Play, sans-serif",
-                    border:"1px solid black",
+                    border:"1px solid white",
                     width: "100%",
                     boxSizing: "border-box",
                 }}
@@ -143,7 +143,7 @@ const CTA = () => {
                     marginTop:"8px",
                     fontFamily: "Play, sans-serif",
                     // backgroundColor: "#23236a",
-                    border:"1px solid black",
+                    border:"1px solid white",
                     width: "100%",
                     boxSizing: "border-box",
                 }}
@@ -167,7 +167,7 @@ const CTA = () => {
                     marginTop:"8px",
                     fontFamily: "Play, sans-serif",
                     // backgroundColor: "#23236a",
-                    border:"1px solid black",
+                    border:"1px solid white",
                     width: "100%",
                     boxSizing: "border-box",
                 }}
@@ -193,7 +193,7 @@ const CTA = () => {
                 marginTop:"8px",
                 fontFamily: "Play, sans-serif",
                 // backgroundColor: "#23236a",
-                border:"1px solid black",
+                border:"1px solid white",
                 width: "100%",
                 boxSizing: "border-box",
               }}
@@ -205,7 +205,7 @@ const CTA = () => {
           {/* Submit Button */}
           <div style={{ display: "flex", justifyContent: "center" }}>
             <button type="submit" style={{
-              padding: "20px 60px",
+              padding: "18px 60px",
               borderRadius: "5px",
               backgroundColor: "#FF6900",
               color: "#fff",
@@ -213,6 +213,7 @@ const CTA = () => {
               cursor: "pointer",
               fontSize: "16px",
               width: '100%',
+              marginTop:"15px",
               fontWeight: "bold",
               fontFamily: "Play, sans-serif"
             }}>

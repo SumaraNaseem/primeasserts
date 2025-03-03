@@ -4,7 +4,7 @@ import P2Pexchange from "/p2pexchanges.jpeg"
 
 const FundingSection = () => {
   return (
-    <div className="px-52 py-10">
+    <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
       {/* Header */}
       <div className="bg-teal-600 text-white text-center py-3 text-xl font-semibold">
         On to Funding
@@ -20,7 +20,7 @@ const FundingSection = () => {
               alt="Investment"
               className="absolute  w-full  h-full object-cover bg-black opacity-120"
             />
-            <div className="p-12 z-10 text-white ">
+            <div className="md:p-12 p-4  z-10 text-white ">
             <h2 className="text-xl font-bold mb-4">투자자대상</h2>
             <p className="text-sm  mb-4 leading-relaxed">
               안전한 투자, 확실한 수익! 스타론 P2P 펀딩이 만듭니다.
@@ -58,7 +58,7 @@ const FundingSection = () => {
               alt="Investment"
               className="absolute  w-full h-full object-cover bg-black opacity-120"
             />
-            <div className="relative p-12">
+            <div className="relative md:p-12 p-4 ">
               <h2 className="text-xl text-white font-bold">PRIME STOCK</h2>
               <p className="text-sm text-white">
                 투자의 미래를 연결하는 스마트 금융 플랫폼

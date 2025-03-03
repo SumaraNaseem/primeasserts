@@ -3,9 +3,9 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-orange-500 text-white py-8">
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div className=" px-4 md:px-10  lg:px-14 xl:px-30 2xl:px-52 grid md:grid-cols-3 gap-8">
         {/* Office Section */}
-        <div>
+        <div className="">
           <h3 className="text-lg font-semibold mb-4">우리 사무실</h3>
           <p className="flex items-center gap-2">
             <FaMapMarkerAlt /> 123 거리, 뉴욕, 미국

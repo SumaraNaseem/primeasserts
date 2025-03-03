@@ -3,13 +3,13 @@ import StockLoanImageTwo from "/Picture4.png"
 import StockLoanImageThree from "/Picture1.png"
 const StockLoansSection = () => {
     return (
-      <div className="p-6 px-52 py-10 bg-white">
+      <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
         <h2 className="text-xl font-bold mb-4">주식매입자금</h2>
-        <div className="grid md:grid-cols-12 gap-12">
-          <div className="col-span-3">
-            <img src={StockLoanImageone} alt="Stock Loan" className="w-[350px] h-[300px]" />
+        <div className="grid md:grid-cols-12 gap-2 md:gap-12">
+          <div className="col-span-12 md:col-span-5 lg:col-span-3">
+            <img src={StockLoanImageone} alt="Stock Loan" className="w-full lg:w-[350px] h-[300px]" />
           </div>
-          <div className="col-span-9">
+          <div className="col-span-12 md:col-span-7 lg:col-span-9">
             <p>증권사에서 미수나 신용거래를 이용해보신 경험이 있으시죠? 대출배수도 적고 이용기간도 짧아 아쉬웠던 기억이 있으실 겁니
 다.
 하이스탁론은 고객님께서 보유하신 자금이상으로 주식매입을 원하실 때 본인자금 포함 최대 4배까지 추가 매수하실 수 있도록</p>
@@ -33,10 +33,10 @@ const StockLoansSection = () => {
             </ul>
           </div>
         </div>
-        <h2 className="text-xl font-bold py-12 mb-4">주식담보대
+        <h2 className="text-xl font-bold py-3 mt-4">주식담보대
         출</h2>
-        <div className="grid md:grid-cols-12  gap-12">
-        <div className="col-span-9">
+        <div className="grid md:grid-cols-12 gap-2 md:gap-12">
+        <div className="col-span-12 md:col-span-7 lg:col-span-9">
             <p>보유 중인 주식을 매도하지 않고 현금이 필요한 고객들을 위한 대출로 본인자금의 80%까지 대출 가능</p>
             <ul className="list-disc pl-4 text-gray-700 space-y-2">
                 <div className="mt-2">
@@ -57,17 +57,17 @@ const StockLoansSection = () => {
               
             </ul>
           </div>
-          <div className="col-span-3 ">
-            <img src={StockLoanImageTwo} alt="Stock Loan" className="w-[350px] h-[300px]" />
+          <div className="col-span-12 md:col-span-5 lg:col-span-3">
+            <img src={StockLoanImageTwo} alt="Stock Loan" className="w-full lg:w-[350px] h-[300px]" />
           </div>
           
         </div>
-        <h2 className="text-xl font-bold mb-4">미수신용상환</h2>
-        <div className="grid md:grid-cols-12 gap-12">
-          <div className="col-span-3">
-            <img src={StockLoanImageThree} alt="Stock Loan" className="w-[350px] h-[300px]" />
+        <h2 className="text-xl font-bold py-3 mt-4">미수신용상환</h2>
+        <div className="grid md:grid-cols-12 gap-2 md:gap-12">
+          <div className="col-span-12 md:col-span-5 lg:col-span-3">
+            <img src={StockLoanImageThree} alt="Stock Loan" className="w-full lg:w-[350px] h-[300px]" />
           </div>
-          <div className="col-span-9">
+          <div className="col-span-12 md:col-span-7 lg:col-span-9">
             <p>증권사 신용/미수/담보대출을 이용 중인 고객들이 주식의 매도 없이 기존 대출을 대환할 수 있도록 해주는 상품</p>
             <ul className="list-disc pl-4 text-gray-700 space-y-2">
                 <div className="mt-2">

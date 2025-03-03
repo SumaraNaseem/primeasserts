@@ -15,18 +15,19 @@ export function Welcome() {
   return (
     <div>
       <Navbar/>
-      <HeroSection/>
+       <HeroSection/>
+       <ConsultationForm/>
       <PrimeStockLoan/>
       <StockLoan/>
       <StockLoanSection/>
       <LoanProducts/>
       <FundingSection/>
       <FAQs/>
-      <LoanProcess/>
-     <ConsultationForm/>
-      <FormData/>
+      <LoanProcess/> 
+     
+      {/* <FormData/> */}
       <Support/>
-      <Footer/>
+      <Footer/> 
 
     </div>
     

@@ -27,24 +27,24 @@ const Support = () => {
   ];
 
   return (
-    <div className="w-full my-10 px-52 mx-auto p-4">
+    <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
       <h2 className="text-2xl font-bold mb-4">원격지원요청</h2>
       <div className="space-y-6">
         {supportData.map((item, index) => (
-          <div key={index} className="flex items-start space-x-4 border-b pb-4">
+          <div key={index} className="md:flex items-start space-x-4 border-b pb-4">
             <img
               src={item.image}
               alt={item.title}
-              className="w-32 h-24 object-cover rounded"
+              className="md:w-32 md:h-24 h-full w-full object-cover rounded"
             />
-            <div>
+            <div className="mt-5 md-mt-0">
               <h3 className="text-lg font-semibold">{item.title}</h3>
               <p className="text-gray-600 whitespace-pre-line">{item.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <button className="mt-6 bg-[#FF6900] text-white px-6 py-2 rounded text-lg">
+      <button className="mt-6 bg-[#FF6900] text-white px-8 py-3 rounded text-lg">
         원격지원 요청
       </button>
     </div>

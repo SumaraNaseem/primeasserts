@@ -46,7 +46,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="px-52 mx-auto my-10 p-6">
+    <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
       <h2 className="text-2xl font-bold mb-4">FAQ( 자주하는 질 )</h2>
       {faqData.map((category, catIndex) => (
         <div key={catIndex} className="mb-6">

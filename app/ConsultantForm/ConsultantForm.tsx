@@ -43,7 +43,7 @@ const ConsultationForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="px-52 mx-auto p-6 "
+      className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52"
     >
       <h2 className="text-lg font-semibold mb-4">온라인 상담신청</h2>
 
@@ -247,7 +247,7 @@ const ConsultationForm = () => {
       {/* Submit Button */}
       <button
         type="submit"
-        className="mt-5 px-4 py-2 bg-orange-500 text-white rounded-md"
+        className="mt-5 px-8 py-3 bg-orange-500 text-white rounded-md"
       >
         제출하기
       </button>

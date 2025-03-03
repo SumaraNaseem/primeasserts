@@ -33,9 +33,9 @@ const LoanProcess = () => {
   ];
 
   return (
-    <div className="py-10">
-      <div className="px-52 mx-auto">
-        <div className="flex  justify-center gap-6">
+    <div className="">
+      <div className="px-4 md:px-10  py-10 lg:px-14 xl:px-30 2xl:px-52">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-center gap-6">
           {steps.map((step, index) => (
             <div
               key={index}
