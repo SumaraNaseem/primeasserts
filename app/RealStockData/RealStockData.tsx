@@ -28,7 +28,7 @@ const StockChart = () => {
   }, []);
 
   return (
-    <div className="w-full h-43 lg:h-120  p-3 border  bg-white shadow-lg rounded-lg">
+    <div className="w-full h-43 lg:h-90 2xl:h-90   p-3 border  bg-white shadow-lg rounded-lg">
       <h2 className="text-lg font-semibold mb-2">Stock Market Data (AAPL)</h2>
       <ResponsiveContainer width="90%" height="90%" className="pb-5">
         <LineChart data={stockData}>

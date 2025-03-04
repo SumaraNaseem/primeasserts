@@ -11,12 +11,14 @@ import LoanProcess from "../LoanProcess/LoanProcess"
 import FundingSection from "../FundingSection/FundingSection"
 import Footer from "../Footer/Footer"
 import ConsultationForm from "~/ConsultantForm/ConsultantForm";
+import Apply from "../Apply/Apply"
 export function Welcome() {
   return (
     <div>
       <Navbar/>
        <HeroSection/>
-       <ConsultationForm/>
+       <Apply/>
+       {/* <ConsultationForm/> */}
       <PrimeStockLoan/>
       <StockLoan/>
       <StockLoanSection/>
