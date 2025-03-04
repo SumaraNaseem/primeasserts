@@ -12,13 +12,16 @@ import FundingSection from "../FundingSection/FundingSection"
 import Footer from "../Footer/Footer"
 import ConsultationForm from "~/ConsultantForm/ConsultantForm";
 import Apply from "../Apply/Apply"
+import InvestmentPlain from "../InvestmentPlan/InvestmentPlain"
+import InvestmentInfo from "../InvestmentIno/InvestmentInfo";
+import LoanTable from "../LoanTable/LoanTable"
+import RiskManagement from "~/RiskManagment/RiskManagment";
 export function Welcome() {
   return (
     <div>
       <Navbar/>
        <HeroSection/>
        <Apply/>
-       {/* <ConsultationForm/> */}
       <PrimeStockLoan/>
       <StockLoan/>
       <StockLoanSection/>
@@ -26,9 +29,11 @@ export function Welcome() {
       <FundingSection/>
       <FAQs/>
       <LoanProcess/> 
-     
-      {/* <FormData/> */}
       <Support/>
+      {/* <InvestmentPlain/>
+      <InvestmentInfo/>
+      <LoanTable/>
+      <RiskManagement/> */}
       <Footer/> 
 
     </div>
