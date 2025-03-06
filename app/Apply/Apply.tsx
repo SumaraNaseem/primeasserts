@@ -11,6 +11,7 @@ export default function ConsultationForm() {
         person_in_charge: '',
         asset:'',
       });
+      console.log(formData,'formData________')
       const [modalformData, setModalFormData] = useState({
         creditConsent: false,
         marketingConsent: false,
@@ -18,7 +19,7 @@ export default function ConsultationForm() {
       });
     
       // Handle input change
-      const handleChange = (e) => {
+      const handleChange = (e:any) => {
         const { modalname, checked } = e.target;
         setModalFormData((prev) => ({ ...prev, [modalname]: checked }));
         const { name, value } = e.target;
@@ -28,7 +29,7 @@ export default function ConsultationForm() {
         });
       };
     
-      const handleSubmit = (e) => {
+      const handleSubmit = (e:any) => {
         
         e.preventDefault();
         const templateParams = {
